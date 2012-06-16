@@ -12,6 +12,7 @@
 (load "volvox/markdown")
 (load "volvox/css")
 (load "volvox/lua")
+(load "volvox/haskell-site-file")
 
 ;; all modes
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
