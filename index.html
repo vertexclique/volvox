@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Volvox by vertexclique</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+
+      <header>
+        <h1>Volvox</h1>
+        <p>Volvox mode for Emacs</p>
+      </header>
+
+      <div id="banner">
+        <span id="logo"></span>
+
+        <a href="https://github.com/vertexclique/volvox" class="button fork"><strong>View On GitHub</strong></a>
+        <div class="downloads">
+          <span>Downloads:</span>
+          <ul>
+            <li><a href="https://github.com/vertexclique/volvox/zipball/master" class="button">ZIP</a></li>
+            <li><a href="https://github.com/vertexclique/volvox/tarball/master" class="button">TAR</a></li>
+          </ul>
+        </div>
+      </div><!-- end banner -->
+
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
+      <section>
+        <h1>Volvox</h1>
+
+<p><img src="http://mari-biotech.nstl.gov.cn/MirrorResources/508/volvox.GIF" alt="Volvox"></p>
+
+<h2>Installation and Removal</h2>
+
+<h3>Requirements</h3>
+
+<ul>
+<li>ruby &gt;= "1.8.7"</li>
+<li>emacs &gt;= "21.3"</li>
+</ul><h3>Installation</h3>
+
+<p>ATTENTION: Backup your .emacs, .emacs.d and use removal command written below for complete relocation for Volvox mode. This command(removal) also removes Volvox mode entirely.</p>
+
+<ul>
+<li>For Mac just follow these steps and use <code>emacs</code> command</li>
+<li>If you use Windows or Linux use <code>emacs -nw</code> command</li>
+</ul><p>For installing volvox mode give this in terminal</p>
+
+<pre><code>$ curl https://raw.github.com/vertexclique/volvox/master/do-install.sh | sh
+</code></pre>
+
+<p>...and take a rest.</p>
+
+<p>If you want to code in JavaScript you must bytecompile js2-mode with this command in emacs:
+<code>M-x byte-compile-file &lt;RET&gt; ~/.emacs.d/vendor/js2.el &lt;RET&gt;</code></p>
+
+<h3>Removal</h3>
+
+<p>For removal use this command in your terminal</p>
+
+<pre><code>$ curl https://raw.github.com/vertexclique/volvox/master/do-remove.sh | sh
+</code></pre>
+
+<p>...and take a <a href="http://nyan.cat/">cat</a>.</p>
+
+<h2>Current Modes and IDE Functions in Volvox</h2>
+
+<h3>JavaScript Mode</h3>
+
+<p>Type <code>M-x js2-mode</code></p>
+
+<h3>Python Mode</h3>
+
+<p>Type <code>M-x python-mode</code></p>
+
+<h3>C# Mode</h3>
+
+<p>Type <code>M-x csharp-mode</code></p>
+
+<h3>Ruby Mode</h3>
+
+<p>Type <code>M-x ruby-mode</code></p>
+
+<h3>Lua Mode</h3>
+
+<p>Type <code>M-x lua-mode</code></p>
+
+<h3>Gist modes</h3>
+
+<p>Built-in gist modes based on Github API Token and fetching gists</p>
+
+<h3>GitHub integration</h3>
+
+<p>Built-in github integration based on defunkt's code</p>
+
+<h3>YAML Mode</h3>
+
+<p>Type <code>M-x yaml-mode</code></p>
+
+<h3>Connecting to IRC</h3>
+
+<p>Type <code>M-x irc</code> (No auto-join)
+or
+Type <code>M-x erc</code> (auto-join)</p>
+
+<h3>Shell Script Mode</h3>
+
+<p>Type <code>M-x shell-script-mode</code></p>
+
+<h3>SGML Mode</h3>
+
+<p>Type <code>M-x sgml-mode</code></p>
+
+<h3>Markdown mode</h3>
+
+<p>Type <code>M-x markdown-mode</code></p>
+
+<h3>Haskell mode</h3>
+
+<p>Type <code>M-x haskell-mode</code></p>
+
+<h3>Lisp mode</h3>
+
+<p>Type <code>M-x lisp-mode</code></p>
+
+<h3>TODO list which is placed in ~/.todo</h3>
+
+<p>Type for adding an entry <code>volvox-todo-quick-enter</code>
+For toggle the status <code>volvox-todo-toggle-status</code>
+You can see the status also <code>cat ~/.todo</code></p>
+
+<h3>Cheatsheet mode</h3>
+
+<p>Type <code>M-x cheat</code></p>
+
+<p>also textile and treetop modes are exist...</p>
+
+<h2>Extra Mode Requests</h2>
+
+<p>If you want to extra modes for volvox mode click <a href="http://github.com/vertexclique/volvox/issues">HERE</a> and open an issue for your request.</p>
+      </section>
+      <footer>
+        <p>Project maintained by <a href="https://github.com/vertexclique">vertexclique</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
+    
+  </body>
+</html>
