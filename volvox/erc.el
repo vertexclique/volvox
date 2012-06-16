@@ -28,6 +28,6 @@
 ;;             (volvox-erc-update-topic parsed)))
 
 (setq erc-autojoin-channels-alist
-      '(("freenode.net" "#github" "#logicalawesome" "#rip"
-         "#resque" "#{" "#sinatra" "#redis" "#coffeescript"
+      '(("freenode.net" "#github" "#debian" "#ubuntu"
+         "##haskell-tr" "##ruby-tr" "##python-tr" "#redis" "#coffeescript"
          "#thechangelog" )))
