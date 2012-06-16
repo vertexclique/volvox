@@ -13,6 +13,7 @@
 (load "volvox/css")
 (load "volvox/lua")
 (load "volvox/haskell-site-file")
+(load "volvox/csharp-mode")
 
 ;; all modes
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
