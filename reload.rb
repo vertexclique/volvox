@@ -10,7 +10,6 @@ File.open('local.el', 'w') do |f|
 				    (cons \'("\\.md" . markdown-mode) auto-mode-alist))'
   f.puts '(require \'mustache-mode)'
   f.puts '(require \'any-ini-mode)'
-  f.puts '(require \'color-theme)'
   f.puts '(autoload \'js2-mode "js2" nil t)
   		      (add-to-list \'auto-mode-alist \'("\\.js$" . js2-mode))'
   f.puts '(require \'magit)'

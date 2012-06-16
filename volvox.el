@@ -11,7 +11,6 @@
 (load "volvox/defuns")
 (load "volvox/bindings")
 (load "volvox/modes")
-(load "volvox/theme")
 (load "volvox/temp_files")
 (load "volvox/github")
 (load "volvox/git")
