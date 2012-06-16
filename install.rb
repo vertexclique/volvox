@@ -24,5 +24,3 @@ Git = V do |command, dir|
     `git #{command}`
   end
 end
-
-`git submodule update --init --recursive`
