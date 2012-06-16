@@ -6,4 +6,3 @@ cd $HOME
 cd .emacs.d
 ruby reload.rb
 cd $HOME
-emacs
