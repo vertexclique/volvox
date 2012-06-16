@@ -128,7 +128,8 @@ See the variable `align-rules-list' for more details.")
           (insert (format "'%s'" symbol-str))))))
     (goto-char initial-pos)))
 
-(require 'inf-ruby)
+;;(require 'inf-ruby)
+(load "volvox/inf-ruby")
 
 (defun run-ruby-in-buffer (buf script &optional params)
   "Run CMD as a ruby process in BUF if BUF does not exist."

@@ -15,29 +15,6 @@
 (load "volvox/github")
 (load "volvox/git")
 (load "volvox/todo")
-;;ruby
-(load "volvox/ruby")
-(load "volvox/ruby-mode")
-(load "volvox/ruby-style")
-(load "volvox/rdoc-mode")
-(load "volvox/inf-ruby")
-(load "volvox/ruby-electric")
-(load "volvox/rubydb3x")
-(load "volvox/rubydb2x")
-;;python
-(load "volvox/python")
-;;lua
-(load "volvox/lua")
-;;artist
-(load "volvox/artist")
-;;dired
-(load "volvox/dired")
-;;erlang
-(load "volvox/erlang")
-;;misc
-(load "volvox/sgml")
-(load "volvox/shell")
-(load "volvox/todo")
 
 (when (file-exists-p "volvox/private")
   (load "volvox/private"))

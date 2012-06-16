@@ -111,7 +111,7 @@
 
 (require 'comint)
 (require 'compile)
-(require 'ruby-mode)
+(load "volvox/ruby-mode")
 
 ;;
 ;; you may change these variables
