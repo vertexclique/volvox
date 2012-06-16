@@ -24,4 +24,6 @@ File.open('local.el', 'w') do |f|
   
 end
 
-puts "Don't forget to M-x byte-compile-file js2"
+puts "\n\nDon't forget to do:"
+puts "M-x byte-compile-file <RET> ~/.emacs.d/vendor/js2.el <RET>"
+puts "Wait for compiling and reload the emacs again, this will prepare js2-mode\n"
