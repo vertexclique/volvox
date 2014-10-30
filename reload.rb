@@ -21,9 +21,6 @@ File.open('local.el', 'w') do |f|
             (textmate-mode)'
   f.puts '(require \'yaml-mode)
             (add-to-list \'auto-mode-alist \'("\\.yml$" . yaml-mode))'
-  f.puts ';;   (autoload \'csharp-mode "csharp-mode" "Major mode for editing C# code." t)
-(setq auto-mode-alist
-(append \'(("\\.cs$" . csharp-mode)) auto-mode-alist))'
 end
 
 puts "\n\nDon't forget to do:"
