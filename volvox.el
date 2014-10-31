@@ -15,6 +15,7 @@
 (load "volvox/github")
 (load "volvox/git")
 (load "volvox/todo")
+(load "volvox/dirtree")
 
 (when (file-exists-p "volvox/private")
   (load "volvox/private"))
